@@ -1,0 +1,60 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "anthropic/claude-3-5-sonnet",
+  "zenMode": {
+    "enabled": true,
+    "strategy": "optimized-refactor",
+    "fallbackModel": "google/gemini-1.5-flash",
+    "reasoningModel": "openai/o1-pro"
+  },
+  "mcp": {
+    "cynthion-usb-analyzer": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "-m",
+        "cynthion_mcp_server"
+      ],
+      "env": {
+        "CYNTHION_DEVICE_ADDR": "usb:default"
+      },
+      "enabled": true
+    },
+    "workspace-filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "d:\\AI人工智慧\\Antigravity"
+      ],
+      "enabled": true
+    }
+  },
+  "agent": {
+    "review": {
+      "description": "Performs standard architectural and quality code reviews based on customized project rules.",
+      "instructions": "Refer to the guidelines defined in .opencode/agent/review.md. Focus on logic soundness, type safety, performance, and best practices.",
+      "tools": {
+        "read_file": true,
+        "write_file": false,
+        "run_command": false
+      }
+    },
+    "architect": {
+      "description": "Guides system design and architectural changes for Antigravity 2.0 components.",
+      "instructions": "Refer to the guidelines defined in .opencode/agent/architect.md. Prioritize clean boundaries, testability, and robust abstractions.",
+      "tools": {
+        "read_file": true,
+        "write_file": true,
+        "run_command": true
+      }
+    }
+  },
+  "permission": {
+    "read_file": "allow",
+    "write_file": "ask",
+    "run_command": "ask",
+    "read_url": "ask"
+  }
+}
