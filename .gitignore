@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE / local machine files
+.vscode/
+.idea/
+.DS_Store
+
+# Generated temporary folders
+tmp/
+*/tmp/
+
+# Large binary model artifacts
+*.joblib
+*.pkl
+
+# Legacy / duplicated HW7 working folders
+HW7/old/
+HW7/new/
+HW7/.venv/
+HW7/.venv.*/
+HW7/.vscode/

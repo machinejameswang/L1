@@ -1,0 +1,28 @@
+# Virtual Environments
+.venv/
+.venv.*/
+.venv.broken-*/
+venv/
+ENV/
+
+# IDE and System files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Python Cache and Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local model weights or serialized files if temporary
+*.pkl
+*.joblib

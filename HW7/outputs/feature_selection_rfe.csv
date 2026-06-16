@@ -1,0 +1,14 @@
+feature,rfe_selected,rfe_rank
+NOX,True,1
+DIS,True,1
+RAD,True,1
+TAX,True,1
+PTRATIO,True,1
+LSTAT,True,1
+RM,False,2
+CHAS,False,3
+AGE,False,4
+CRIM,False,5
+INDUS,False,6
+B,False,7
+ZN,False,8

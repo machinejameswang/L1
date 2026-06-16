@@ -1,0 +1,17 @@
+feature,correlation
+median_income,0.6899394795971385
+ocean_proximity_INLAND,-0.48465384542224094
+ocean_proximity_<1H OCEAN,0.2554216783664555
+bedrooms_per_room,-0.2548067296127937
+ocean_proximity_NEAR BAY,0.1640012101179107
+rooms_per_household,0.15699449719175956
+latitude,-0.14328668470948563
+ocean_proximity_NEAR OCEAN,0.13956080795641645
+total_rooms,0.13750312285566285
+housing_median_age,0.10016515380948647
+households,0.06849032112267746
+total_bedrooms,0.05119385528143962
+longitude,-0.046882073963289236
+ocean_proximity_ISLAND,0.027214325372259256
+population_per_household,-0.017934666016770143
+population,-0.017736899184906698

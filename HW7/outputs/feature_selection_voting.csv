@@ -1,0 +1,14 @@
+feature,corr_vote,mi_vote,rfe_vote,lasso_vote,rf_vote,total_votes
+LSTAT,1,1,1,1,1,5
+DIS,0,1,1,1,1,4
+PTRATIO,1,0,1,1,1,4
+RM,1,1,0,1,1,4
+NOX,0,1,1,1,1,4
+TAX,1,0,1,0,0,2
+RAD,0,0,1,1,0,2
+INDUS,1,1,0,0,0,2
+CRIM,1,0,0,0,1,2
+AGE,0,1,0,0,0,1
+ZN,0,0,0,0,0,0
+CHAS,0,0,0,0,0,0
+B,0,0,0,0,0,0

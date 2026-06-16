@@ -1,0 +1,29 @@
+{
+  "original_dataset_shape": [
+    506,
+    14
+  ],
+  "augmented_dataset_shape": [
+    1000,
+    15
+  ],
+  "target": "PRICE_CLASS",
+  "thresholds": {
+    "q33": 18.7,
+    "q66": 23.7
+  },
+  "best_model": "RandomForest",
+  "holdout_metrics": {
+    "accuracy": 0.855,
+    "f1_macro": 0.8555210373472005,
+    "precision_macro": 0.857237621416726,
+    "recall_macro": 0.8548168249660787
+  },
+  "class_order": [
+    "high",
+    "low",
+    "medium"
+  ],
+  "augmented_csv": "D:\\AI人工智慧\\Antigravity\\HW7.3\\data\\HW7_BostonHousing_Classification_Augmented_1000.csv",
+  "augmented_xlsx": "D:\\AI人工智慧\\Antigravity\\HW7.3\\data\\HW7_BostonHousing_Classification_Augmented_1000.xlsx"
+}

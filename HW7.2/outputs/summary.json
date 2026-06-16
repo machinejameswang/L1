@@ -1,0 +1,29 @@
+{
+  "original_dataset_shape": [
+    20640,
+    10
+  ],
+  "augmented_dataset_shape": [
+    30000,
+    11
+  ],
+  "target": "price_category",
+  "thresholds": {
+    "q33": 140192.41,
+    "q66": 227700.0
+  },
+  "best_model": "ExtraTrees",
+  "holdout_metrics": {
+    "accuracy": 0.8661666666666666,
+    "f1_macro": 0.8650933825264217,
+    "precision_macro": 0.8649163729322717,
+    "recall_macro": 0.8659387997623291
+  },
+  "class_order": [
+    "high",
+    "low",
+    "medium"
+  ],
+  "augmented_csv": "D:\\AI人工智慧\\Antigravity\\HW7.2\\data\\HW7_CaliforniaHousing_Classification_Augmented_30000.csv",
+  "augmented_xlsx": "D:\\AI人工智慧\\Antigravity\\HW7.2\\data\\HW7_CaliforniaHousing_Classification_Augmented_30000.xlsx"
+}

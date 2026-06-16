@@ -1,0 +1,163 @@
+{
+  "dataset_shape": [
+    30000,
+    10
+  ],
+  "original_dataset_shape": [
+    20640,
+    10
+  ],
+  "augmented_csv": "D:\\AI人工智慧\\Antigravity\\HW7.1\\data\\HW7_CaliforniaHousing_Augmented_30000.csv",
+  "augmented_xlsx": "D:\\AI人工智慧\\Antigravity\\HW7.1\\data\\HW7_CaliforniaHousing_Augmented_30000.xlsx",
+  "target": "median_house_value",
+  "best_model": "ExtraTrees",
+  "holdout_metrics": {
+    "MAE": 28644.534630000002,
+    "RMSE": 43599.849949495525,
+    "R2": 0.8537474798999087
+  },
+  "sample_prediction": 239626.21,
+  "top_features_by_vote": [
+    {
+      "feature": "latitude",
+      "corr_vote": 1,
+      "mi_vote": 1,
+      "rfe_vote": 1,
+      "lasso_vote": 1,
+      "rf_vote": 1,
+      "total_votes": 5
+    },
+    {
+      "feature": "median_income",
+      "corr_vote": 1,
+      "mi_vote": 1,
+      "rfe_vote": 1,
+      "lasso_vote": 1,
+      "rf_vote": 1,
+      "total_votes": 5
+    },
+    {
+      "feature": "ocean_proximity_INLAND",
+      "corr_vote": 1,
+      "mi_vote": 1,
+      "rfe_vote": 1,
+      "lasso_vote": 1,
+      "rf_vote": 1,
+      "total_votes": 5
+    },
+    {
+      "feature": "bedrooms_per_room",
+      "corr_vote": 1,
+      "mi_vote": 1,
+      "rfe_vote": 0,
+      "lasso_vote": 1,
+      "rf_vote": 1,
+      "total_votes": 4
+    },
+    {
+      "feature": "longitude",
+      "corr_vote": 0,
+      "mi_vote": 1,
+      "rfe_vote": 1,
+      "lasso_vote": 1,
+      "rf_vote": 1,
+      "total_votes": 4
+    },
+    {
+      "feature": "ocean_proximity_<1H OCEAN",
+      "corr_vote": 1,
+      "mi_vote": 1,
+      "rfe_vote": 1,
+      "lasso_vote": 0,
+      "rf_vote": 0,
+      "total_votes": 3
+    },
+    {
+      "feature": "rooms_per_household",
+      "corr_vote": 1,
+      "mi_vote": 1,
+      "rfe_vote": 0,
+      "lasso_vote": 0,
+      "rf_vote": 1,
+      "total_votes": 3
+    },
+    {
+      "feature": "households",
+      "corr_vote": 0,
+      "mi_vote": 0,
+      "rfe_vote": 1,
+      "lasso_vote": 1,
+      "rf_vote": 0,
+      "total_votes": 2
+    },
+    {
+      "feature": "housing_median_age",
+      "corr_vote": 0,
+      "mi_vote": 0,
+      "rfe_vote": 0,
+      "lasso_vote": 1,
+      "rf_vote": 1,
+      "total_votes": 2
+    },
+    {
+      "feature": "population",
+      "corr_vote": 0,
+      "mi_vote": 0,
+      "rfe_vote": 1,
+      "lasso_vote": 1,
+      "rf_vote": 0,
+      "total_votes": 2
+    }
+  ],
+  "model_table": [
+    {
+      "model": "ExtraTrees",
+      "R2_mean": 0.846689033153822,
+      "R2_std": 0.0047156502873227715,
+      "MAE_mean": 29612.08415208333,
+      "RMSE_mean": 45245.73427122187
+    },
+    {
+      "model": "RandomForest",
+      "R2_mean": 0.837967189745136,
+      "R2_std": 0.004268992410945808,
+      "MAE_mean": 30228.600660833334,
+      "RMSE_mean": 46516.15624353655
+    },
+    {
+      "model": "GradientBoosting",
+      "R2_mean": 0.7847610686278761,
+      "R2_std": 0.0046077118464697385,
+      "MAE_mean": 37178.07777190603,
+      "RMSE_mean": 53614.208372343295
+    },
+    {
+      "model": "LinearRegression",
+      "R2_mean": 0.6488609109317541,
+      "R2_std": 0.006775896760664744,
+      "MAE_mean": 49288.45964894198,
+      "RMSE_mean": 68481.09281084713
+    },
+    {
+      "model": "Ridge",
+      "R2_mean": 0.6485111929451742,
+      "R2_std": 0.007277867297376699,
+      "MAE_mean": 49287.8525037135,
+      "RMSE_mean": 68514.70130195146
+    },
+    {
+      "model": "Lasso",
+      "R2_mean": 0.6482437250432703,
+      "R2_std": 0.0074920221429149855,
+      "MAE_mean": 49297.46479617612,
+      "RMSE_mean": 68540.52581246264
+    },
+    {
+      "model": "ElasticNet",
+      "R2_mean": 0.0226302262566229,
+      "R2_std": 0.0005287144709647257,
+      "MAE_mean": 90379.46828910205,
+      "RMSE_mean": 114258.08041568815
+    }
+  ]
+}

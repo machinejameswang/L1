@@ -1,0 +1,17 @@
+feature,corr_vote,mi_vote,rfe_vote,lasso_vote,rf_vote,total_votes
+latitude,1,1,1,1,1,5
+median_income,1,1,1,1,1,5
+ocean_proximity_INLAND,1,1,1,1,1,5
+bedrooms_per_room,1,1,0,1,1,4
+longitude,0,1,1,1,1,4
+ocean_proximity_<1H OCEAN,1,1,1,0,0,3
+rooms_per_household,1,1,0,0,1,3
+households,0,0,1,1,0,2
+housing_median_age,0,0,0,1,1,2
+population,0,0,1,1,0,2
+population_per_household,0,1,0,0,1,2
+ocean_proximity_ISLAND,0,0,1,0,0,1
+ocean_proximity_NEAR BAY,1,0,0,0,0,1
+ocean_proximity_NEAR OCEAN,1,0,0,0,0,1
+total_bedrooms,0,0,0,0,0,0
+total_rooms,0,0,0,0,0,0

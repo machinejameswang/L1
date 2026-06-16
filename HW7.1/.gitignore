@@ -1,0 +1,12 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local temporary files
+tmp/
+

@@ -1,0 +1,17 @@
+feature,rfe_selected,rfe_rank
+longitude,True,1
+latitude,True,1
+population,True,1
+households,True,1
+median_income,True,1
+ocean_proximity_<1H OCEAN,True,1
+ocean_proximity_INLAND,True,1
+ocean_proximity_ISLAND,True,1
+ocean_proximity_NEAR OCEAN,False,2
+ocean_proximity_NEAR BAY,False,3
+housing_median_age,False,4
+bedrooms_per_room,False,5
+total_rooms,False,6
+rooms_per_household,False,7
+total_bedrooms,False,8
+population_per_household,False,9
