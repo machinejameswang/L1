@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/AI人工智慧/Antigravity/HW8/media/videos/svm_manim/480p15/partial_movie_files/LinearSVMMarginScene/1296451270_3034858710_223132457.mp4'
+file 'file:D:/AI人工智慧/Antigravity/HW8/media/videos/svm_manim/480p15/partial_movie_files/LinearSVMMarginScene/3586851184_1649586198_2164201857.mp4'
+file 'file:D:/AI人工智慧/Antigravity/HW8/media/videos/svm_manim/480p15/partial_movie_files/LinearSVMMarginScene/3586851184_2294132650_1974415436.mp4'
+file 'file:D:/AI人工智慧/Antigravity/HW8/media/videos/svm_manim/480p15/partial_movie_files/LinearSVMMarginScene/3586851184_95173422_2787670773.mp4'
+file 'file:D:/AI人工智慧/Antigravity/HW8/media/videos/svm_manim/480p15/partial_movie_files/LinearSVMMarginScene/3586851184_1503842710_2077542518.mp4'
+file 'file:D:/AI人工智慧/Antigravity/HW8/media/videos/svm_manim/480p15/partial_movie_files/LinearSVMMarginScene/3586851184_3857353831_2553582003.mp4'
+file 'file:D:/AI人工智慧/Antigravity/HW8/media/videos/svm_manim/480p15/partial_movie_files/LinearSVMMarginScene/3586851184_3202569367_3877520801.mp4'
+file 'file:D:/AI人工智慧/Antigravity/HW8/media/videos/svm_manim/480p15/partial_movie_files/LinearSVMMarginScene/3586851184_2606572011_509356276.mp4'
+file 'file:D:/AI人工智慧/Antigravity/HW8/media/videos/svm_manim/480p15/partial_movie_files/LinearSVMMarginScene/3586851184_2872842549_1440856961.mp4'
